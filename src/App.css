@@ -100,3 +100,19 @@
 .delete-button:hover {
   background-color: #d32f2f;
 }
+
+@media (max-width: 425px) {
+  .todo-list-container {
+    width: 95%;
+  }
+
+  .input-container {
+    flex-direction: column;
+    margin-bottom: 12px;
+  }
+
+  .input-container input[type="text"],
+  .input-container input[type="datetime-local"] {
+    margin-bottom: 10px;
+  }
+}

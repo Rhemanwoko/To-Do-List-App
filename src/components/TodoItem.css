@@ -29,3 +29,17 @@
 .delete-button:hover {
     background-color: #d32f2f;
 }
+
+@media (max-width: 425px) {
+    .due-date-dis {
+        display: none;
+    }
+
+    .due-date {
+        font-size: 10px;
+    }
+
+    .todo-text {
+        font-size: 12px;
+    }
+}

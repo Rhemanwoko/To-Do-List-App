@@ -10,7 +10,9 @@ const TodoItem = ({ text, dueDate, onDelete }) => {
     <div className="todo-item">
       <input type="checkbox" />
       <div className="todo-text">{text}</div>
-      <div className="due-date">Due Date: {formattedDueDate}</div>
+      <div className="due-date">
+        <span className="due-date-dis">Due Date:</span> {formattedDueDate}
+      </div>
       {/* <input
         type="datetime-local"
         value={dueDate}
